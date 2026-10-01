@@ -1,0 +1,8 @@
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(310px, 1fr)); gap: 20px; }
+.card { display: flex; flex-direction: column; gap: 10px; }
+.title { font-size: 1.2rem; }
+.sub { color: #c9a8ff; font-size: .92rem; font-weight: 600; }
+.points { display: grid; gap: 6px; color: #dfe3e8; font-size: .95rem; flex: 1; }
+.points li { padding-left: 16px; position: relative; }
+.points li::before { content: ''; position: absolute; left: 0; top: .65em; width: 5px; height: 5px; border-radius: 50%; background: #b58cff; }
+.tech { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }

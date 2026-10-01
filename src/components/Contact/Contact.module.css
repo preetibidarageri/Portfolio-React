@@ -1,0 +1,5 @@
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+.item { display: grid; gap: 2px; transition: border-color .2s; word-break: break-word; }
+.item:hover { border-color: #4fd6ea; }
+.item span { color: var(--muted); font-size: .85rem; }
+.item strong { font-weight: 600; }

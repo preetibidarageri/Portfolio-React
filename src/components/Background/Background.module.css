@@ -1,0 +1,15 @@
+.bg { position: fixed; inset: 0; z-index: -1; overflow: hidden; background: var(--bg); }
+.layer { position: absolute; inset: 0; opacity: 0; transition: opacity 1.4s ease; background: linear-gradient(180deg, transparent 30%, var(--c) 100%); }
+.on { opacity: 1; }
+.teal { --c: #0b8ea3; }
+.green { --c: #178a5c; }
+.amber { --c: #b8761d; }
+.red { --c: #a8302f; }
+.purple { --c: #6a30b8; }
+.blue { --c: #2851c0; }
+.waves { position: absolute; left: -5%; bottom: 0; width: 110%; height: 48vh; }
+.waves path { fill: rgba(0,0,0,.16); stroke: rgba(255,255,255,.14); stroke-width: 1.5; animation: drift 14s ease-in-out infinite alternate; }
+.w2 { animation-duration: 18s !important; animation-direction: alternate-reverse !important; fill: rgba(0,0,0,.2) !important; }
+.w3 { animation-duration: 22s !important; fill: rgba(0,0,0,.26) !important; }
+@keyframes drift { from { transform: translateX(-3%) translateY(0); } to { transform: translateX(3%) translateY(-10px); } }
+@media (prefers-reduced-motion: reduce) { .waves path { animation: none; } .layer { transition: none; } }

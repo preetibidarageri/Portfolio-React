@@ -1,0 +1,2 @@
+.list { display: flex; flex-wrap: wrap; gap: 10px; max-width: 820px; }
+.list li { font-size: .95rem; padding: 6px 16px; }

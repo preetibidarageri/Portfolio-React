@@ -1,0 +1,7 @@
+.timeline { list-style: none; margin: 0; padding: 0; display: grid; gap: 16px; }
+.item { display: flex; justify-content: space-between; gap: 24px; align-items: center; flex-wrap: wrap; }
+.degree { font-size: 1.15rem; }
+.school { color: var(--muted); }
+.right { display: grid; text-align: right; }
+.right strong { color: #9bb8ff; font-size: 1.2rem; }
+.right span { color: var(--muted); font-size: .9rem; }
