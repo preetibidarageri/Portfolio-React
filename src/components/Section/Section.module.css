@@ -1,11 +1,44 @@
-.section { min-height: 100vh; padding: 120px 24px; display: flex; align-items: center; scroll-margin-top: 0; }
-.inner { width: 100%; max-width: 1080px; margin: 0 auto; }
-.head { margin-bottom: 40px; }
-.lead { font-size: clamp(1.4rem, 3vw, 2rem); font-weight: 500; color: var(--accent); }
-.title { font-size: clamp(2rem, 5vw, 3.2rem); font-weight: 800; line-height: 1.1; letter-spacing: -.02em; }
-.teal { --accent: #4fd6ea; }
-.green { --accent: #5fd9a0; }
-.amber { --accent: #f3b45c; }
-.red { --accent: #ff7a76; }
-.purple { --accent: #b58cff; }
-.blue { --accent: #7ea4ff; }
+.section {
+  min-height: 100vh;
+  padding: 120px 24px;
+  display: flex;
+  align-items: center;
+  scroll-margin-top: 0;
+}
+.inner {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.head {
+  margin-bottom: 40px;
+}
+.lead {
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  font-weight: 500;
+  color: var(--accent);
+}
+.title {
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+.teal {
+  --accent: #4fd6ea;
+}
+.green {
+  --accent: #5fd9a0;
+}
+.amber {
+  --accent: #f3b45c;
+}
+.red {
+  --accent: #ff7a76;
+}
+.purple {
+  --accent: #b58cff;
+}
+.blue {
+  --accent: #7ea4ff;
+}

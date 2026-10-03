@@ -1,2 +1,18 @@
-.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 24px; backdrop-filter: blur(6px); box-shadow: 0 18px 50px rgba(0,0,0,.35); }
-.chip { display: inline-block; padding: 3px 12px; border-radius: 999px; font-size: .8rem; font-weight: 600; background: rgba(255,255,255,.08); border: 1px solid var(--line); color: var(--text); }
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 24px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
+}
+.chip {
+  display: inline-block;
+  padding: 3px 12px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--line);
+  color: var(--text);
+}

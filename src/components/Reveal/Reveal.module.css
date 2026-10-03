@@ -1,0 +1,17 @@
+.r {
+  opacity: 0;
+  transform: translateY(40px) scale(0.97);
+  filter: blur(8px);
+  transition:
+    opacity 1s var(--ease),
+    transform 1s var(--ease),
+    filter 1s var(--ease);
+}
+.r > * {
+  display: flow-root;
+}
+.in {
+  opacity: 1;
+  transform: none;
+  filter: none;
+}
