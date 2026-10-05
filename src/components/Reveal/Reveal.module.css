@@ -7,9 +7,11 @@
     transform 1s var(--ease),
     filter 1s var(--ease);
 }
+/* Change or remove this if height collapsing happens */
 .r > * {
   display: flow-root;
 }
+
 .in {
   opacity: 1;
   transform: none;

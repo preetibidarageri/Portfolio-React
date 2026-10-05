@@ -1,7 +1,7 @@
-import styles from './Education.module.css';
-import shared from '../../styles/shared.module.css';
-import Section from '../Section/Section';
-import { education } from '../../data/portfolio';
+import styles from "./Education.module.css";
+import shared from "../../styles/shared.module.css";
+import Section from "../Section/Section";
+import { education } from "../../data/portfolio";
 
 export default function Education() {
   return (

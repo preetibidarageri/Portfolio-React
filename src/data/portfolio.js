@@ -86,8 +86,8 @@ export const projects = [
       "Integrated Firebase Authentication and Firestore with a Node.js/Express backend and MongoDB for persistence.",
       "Connected the app to a backend deployed on Render and tested API communication across devices.",
     ],
-    demo: "https://lnkd.in/guqjDsT6",
-    code: "",
+    demo: "https://drive.google.com/file/d/108VTibPVgSya-jvYrlwG6zwE34lzSufC/view",
+    code: "https://github.com/preetibidarageri/TaskFlow",
   },
   {
     title: "Food Search & Recipe App",
@@ -98,7 +98,7 @@ export const projects = [
       "Responsive UI that handles API states and duplicate-result rendering.",
     ],
     demo: "https://preetibidarageri.github.io/food-app/",
-    code: "",
+    code: "https://github.com/preetibidarageri/food-app",
   },
   {
     title: "React API Explorer",
@@ -109,7 +109,7 @@ export const projects = [
       "Used useEffect, event handling, routing and reusable components.",
     ],
     demo: "https://preetibidarageri.github.io/API-Toolkit/",
-    code: "",
+    code: "https://github.com/preetibidarageri/API-Toolkit",
   },
   {
     title: "Task Management & PDF Progress Tracker",
@@ -120,7 +120,7 @@ export const projects = [
       "Django Admin Panel to manage users, tasks and uploaded documents.",
     ],
     demo: "https://taskmanager-j81y.onrender.com/",
-    code: "",
+    code: "https://github.com/preetibidarageri/Taskmanager",
   },
   {
     title: "Study Material Website",

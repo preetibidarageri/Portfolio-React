@@ -1,3 +1,56 @@
-.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
-.group { font-size: 1.05rem; margin-bottom: 14px; }
-.list { display: flex; flex-wrap: wrap; gap: 8px; }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+/* 1. Target the outer panels to appear one by one downwards */
+.grid > div {
+  opacity: 0;
+  transform: translateY(-24px); /* Starts higher up (opposite direction) */
+
+  animation: panelEntrance 0.7s var(--ease, cubic-bezier(0.25, 1, 0.5, 1))
+    forwards;
+  animation-delay: calc(
+    var(--group-i) * 150ms
+  ); /* Staggers outer cards every 150ms */
+}
+
+.group {
+  font-size: 1.05rem;
+  margin-bottom: 14px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* 2. Target the inner chips to appear upwards inside their parents */
+.list > li {
+  opacity: 0;
+  transform: translateY(20px); /* Starts lower down */
+
+  animation: cardEntrance 0.6s var(--ease, cubic-bezier(0.25, 1, 0.5, 1))
+    forwards;
+
+  /* Adds chip index stagger on top of the parent panel's entrance delay */
+  animation-delay: calc((var(--group-i) * 150ms) + (var(--i) * 60ms));
+}
+
+/* Outer Panel Animation (Slides down) */
+@keyframes panelEntrance {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Inner Chip Animation (Slides up) */
+@keyframes cardEntrance {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

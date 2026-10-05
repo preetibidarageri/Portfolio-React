@@ -1,6 +1,31 @@
-.stack { display: grid; gap: 20px; }
-.role { font-size: 1.25rem; }
-.meta { color: #ff9a96; font-weight: 600; margin: 2px 0 14px; }
-.points { display: grid; gap: 8px; color: #dfe3e8; }
-.points li { padding-left: 18px; position: relative; }
-.points li::before { content: ''; position: absolute; left: 0; top: .7em; width: 6px; height: 6px; border-radius: 50%; background: #ff7a76; }
+.stack {
+  display: grid;
+  gap: 20px;
+}
+.role {
+  font-size: 1.25rem;
+}
+.meta {
+  color: #ff9a96;
+  font-weight: 600;
+  margin: 2px 0 14px;
+}
+.points {
+  display: grid;
+  gap: 8px;
+  color: #dfe3e8;
+}
+.points li {
+  padding-left: 18px;
+  position: relative;
+}
+.points li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.7em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #ff7a76;
+}

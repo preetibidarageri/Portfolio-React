@@ -4,7 +4,11 @@
   --muted: #d3d9e1;
   --line: rgba(255, 255, 255, 0.12);
   --panel: rgba(30, 32, 36, 0.82);
+
+  /* ADD THIS LINE FOR YOUR REVEAL TRANSITION */
+  --ease: cubic-bezier(0.25, 1, 0.5, 1);
 }
+
 *,
 *::before,
 *::after {
