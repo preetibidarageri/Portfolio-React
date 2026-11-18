@@ -125,10 +125,24 @@ export const projects = [
   {
     title: "Study Material Website",
     subtitle: "Notes, question papers and resources for students",
-    tech: ["HTML", "CSS", "Node.js", "SQL", "JavaScript"],
-    points: ["A centralized platform for students to access study resources."],
-    demo: "",
-    code: "",
+    tech: [
+      "React.js",
+      "Python",
+      "Django",
+      " Django REST Framework",
+      "PostgreSQL",
+      "Cloudinary",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "REST API",
+    ],
+    points: [
+      "Developed a full-stack web application using React.js and Django REST Framework to provide engineering students with centralized access to academic study materials.",
+      "Implemented role-based student and teacher access, allowing teachers to upload PDF notes to Cloudinary and students to view and download study materials.",
+    ],
+    demo: "https://study-portal-0g57.onrender.com/",
+    code: "https://github.com/preetibidarageri/study_portal",
   },
   {
     title: "Diabetic Care & Dietary Management",
