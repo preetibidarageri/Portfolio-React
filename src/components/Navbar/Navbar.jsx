@@ -23,7 +23,7 @@ export default function Navbar() {
           </a>
         ))}
       </nav>
-      <a className={styles.cta} href="/Resume.pdf" download>
+      <a className={styles.cta} href="/dist/Preeti_Resume.pdf" download>
         Resume
       </a>
     </header>
