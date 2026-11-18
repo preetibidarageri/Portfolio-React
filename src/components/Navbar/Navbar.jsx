@@ -23,7 +23,11 @@ export default function Navbar() {
           </a>
         ))}
       </nav>
-      <a className={styles.cta} href="/dist/Preeti_Resume.pdf" download>
+      <a
+        className={styles.cta}
+        href={`${import.meta.env.BASE_URL}Preeti_Resume.pdf`}
+        download="Preeti_Resume.pdf"
+      >
         Resume
       </a>
     </header>
